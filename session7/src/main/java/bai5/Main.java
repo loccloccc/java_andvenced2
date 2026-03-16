@@ -121,7 +121,10 @@ public class Main {
                     break;
 
                 case 8:
+                    System.out.println("Thoát thành công");
                     return;
+                default:
+                    System.out.println("Không có lua chọn này");
             }
         }
     }
