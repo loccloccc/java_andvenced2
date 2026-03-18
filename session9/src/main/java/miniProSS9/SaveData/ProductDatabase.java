@@ -13,7 +13,7 @@ public class ProductDatabase {
     public ProductDatabase(){};
     public static ProductDatabase getInstance(){
         if (instance != null) return instance = new ProductDatabase();
-        return null;
+        return instance;
     }
     protected List<Product> list = new ArrayList<>();
     static Scanner sc = new Scanner(System.in);
