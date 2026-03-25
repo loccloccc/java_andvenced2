@@ -9,7 +9,6 @@ public class BedDAOImpl implements BedDAO {
 
     @Override
     public boolean isBedAvailable(String bedId, Connection conn) {
-
         try {
 
             String sql = "SELECT status FROM beds WHERE id = ?";
